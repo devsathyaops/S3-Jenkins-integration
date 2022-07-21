@@ -15,3 +15,4 @@ instance_type = "t2.micro"
   tags = {
     Name = "ONDEMAND"
 }
+}
