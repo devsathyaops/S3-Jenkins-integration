@@ -3,7 +3,6 @@ resource "aws_spot_instance_request" "spot_req" {
   spot_price    = "0.03"
   instance_type = "t2.micro"
    count = 3
-  pub_ip = "${var.pub_ip}"
   tags = {
     Name = "spot-ins"
   }
