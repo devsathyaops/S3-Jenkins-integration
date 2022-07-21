@@ -8,11 +8,11 @@ resource "aws_spot_instance_request" "spot_req" {
   }
 }
 
-resource "aws_instance" "ondemand" {
-ami = "ami-098e42ae54c764c35"
-instance_type = "t2.micro"
+# resource "aws_instance" "ondemand" {
+# ami = "ami-098e42ae54c764c35"
+# instance_type = "t2.micro"
  
-  tags = {
-    Name = "ONDEMAND"
-}
-}
+#   tags = {
+#     Name = "ONDEMAND"
+# }
+# }
