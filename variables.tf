@@ -3,5 +3,4 @@ variable "aws_region" {
 }
 
 variable "public_ip" {
-    type = string
 }
