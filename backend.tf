@@ -1,5 +1,3 @@
-
-
 terraform {
   backend "s3" {
     bucket = "statefile-store-2022-26"
