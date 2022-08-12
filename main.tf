@@ -9,7 +9,7 @@
 # }
 
  resource "aws_instance" "ondemand" {
- ami = "ami-098e42ae54c764c35"
+ ami = "ami-0cea098ed2ac54925"
  instance_type = "t2.micro"
  
    tags = {
