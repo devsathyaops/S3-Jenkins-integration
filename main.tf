@@ -11,7 +11,7 @@
  resource "aws_instance" "ondemand" {
  ami = "ami-0cea098ed2ac54925"
  instance_type = "t2.micro"
- 
+ count = 3
    tags = {
      Name = "ONDEMAND"
  }
